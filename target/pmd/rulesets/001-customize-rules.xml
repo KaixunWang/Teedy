@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Practice 7 — OO metrics (LoC, CC, WMC, CBO, LCOM-related)"
+  xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+  <description>
+    Custom ruleset aligned with lecture metrics:
+    - LoC: NcssCount (NCSS — non-commenting source statements, standard LoC-style measure in PMD).
+    - CC: CyclomaticComplexity (method-level cyclomatic complexity; class-level reporting uses WMC).
+    - WMC: CyclomaticComplexity (classReportLevel / weighted method count per class in PMD 7).
+    - CBO: CouplingBetweenObjects (unique referenced types in a class — closely related to coupling between objects).
+    - LCOM: GodClass (uses TCC — tight class cohesion — low cohesion contributes; no standalone LCOM rule in PMD).
+  </description>
+
+  <rule ref="category/java/design.xml/NcssCount" />
+
+  <rule ref="category/java/design.xml/CyclomaticComplexity">
+    <properties>
+      <property name="methodReportLevel" value="10" />
+      <property name="classReportLevel" value="80" />
+    </properties>
+  </rule>
+
+  <rule ref="category/java/design.xml/CouplingBetweenObjects">
+    <properties>
+      <property name="threshold" value="20" />
+    </properties>
+  </rule>
+
+  <rule ref="category/java/design.xml/TooManyMethods" />
+
+  <rule ref="category/java/design.xml/GodClass" />
+</ruleset>

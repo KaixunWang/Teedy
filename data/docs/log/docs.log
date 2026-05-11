@@ -1,0 +1,296 @@
+16 Mar 2026 14:11:52,284 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:11:52,614 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+16 Mar 2026 14:11:52,614 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+16 Mar 2026 14:11:52,615 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+16 Mar 2026 14:11:52,616 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+16 Mar 2026 14:11:52,643 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+16 Mar 2026 14:11:52,645 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+16 Mar 2026 14:11:52,645 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+16 Mar 2026 14:11:52,654 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+16 Mar 2026 14:11:52,657 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+16 Mar 2026 14:11:52,659 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+16 Mar 2026 14:11:52,663 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+16 Mar 2026 14:11:52,664 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+16 Mar 2026 14:11:52,717 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+16 Mar 2026 14:11:52,719 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+16 Mar 2026 14:11:52,723 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+16 Mar 2026 14:11:52,726 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+16 Mar 2026 14:11:52,727 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+16 Mar 2026 14:11:52,728 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+16 Mar 2026 14:11:52,730 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+16 Mar 2026 14:11:52,731 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+16 Mar 2026 14:11:52,733 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+16 Mar 2026 14:11:52,737 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+16 Mar 2026 14:11:52,738 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+16 Mar 2026 14:11:52,739 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+16 Mar 2026 14:11:52,747 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+16 Mar 2026 14:11:52,747 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+16 Mar 2026 14:11:52,748 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+16 Mar 2026 14:11:52,750 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+16 Mar 2026 14:11:52,755 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+16 Mar 2026 14:11:52,758 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+16 Mar 2026 14:11:52,763 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+16 Mar 2026 14:11:52,765 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+16 Mar 2026 14:11:52,766 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+16 Mar 2026 14:11:52,767 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+16 Mar 2026 14:11:52,767 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+16 Mar 2026 14:11:52,769 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+16 Mar 2026 14:11:52,770 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+16 Mar 2026 14:11:52,770 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+16 Mar 2026 14:11:52,770 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:11:53,873 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+16 Mar 2026 14:11:53,898 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+16 Mar 2026 14:11:53,946 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+16 Mar 2026 14:11:53,948 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+16 Mar 2026 14:11:53,948 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+16 Mar 2026 14:11:54,115 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+16 Mar 2026 14:11:54,116 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+16 Mar 2026 14:12:19,233 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+16 Mar 2026 14:14:10,656 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+16 Mar 2026 14:14:10,658 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+16 Mar 2026 14:14:46,143 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:14:46,422 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+16 Mar 2026 14:14:46,422 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+16 Mar 2026 14:14:46,422 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+16 Mar 2026 14:14:46,424 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+16 Mar 2026 14:14:46,453 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+16 Mar 2026 14:14:46,455 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+16 Mar 2026 14:14:46,456 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+16 Mar 2026 14:14:46,477 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+16 Mar 2026 14:14:46,480 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+16 Mar 2026 14:14:46,483 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+16 Mar 2026 14:14:46,488 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+16 Mar 2026 14:14:46,489 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+16 Mar 2026 14:14:46,539 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+16 Mar 2026 14:14:46,542 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+16 Mar 2026 14:14:46,543 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+16 Mar 2026 14:14:46,547 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+16 Mar 2026 14:14:46,548 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+16 Mar 2026 14:14:46,550 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+16 Mar 2026 14:14:46,553 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+16 Mar 2026 14:14:46,554 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+16 Mar 2026 14:14:46,555 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+16 Mar 2026 14:14:46,559 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+16 Mar 2026 14:14:46,560 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+16 Mar 2026 14:14:46,561 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+16 Mar 2026 14:14:46,568 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+16 Mar 2026 14:14:46,568 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+16 Mar 2026 14:14:46,569 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+16 Mar 2026 14:14:46,571 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+16 Mar 2026 14:14:46,575 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+16 Mar 2026 14:14:46,576 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+16 Mar 2026 14:14:46,579 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+16 Mar 2026 14:14:46,579 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+16 Mar 2026 14:14:46,580 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+16 Mar 2026 14:14:46,580 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+16 Mar 2026 14:14:46,581 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+16 Mar 2026 14:14:46,583 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+16 Mar 2026 14:14:46,584 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+16 Mar 2026 14:14:46,584 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+16 Mar 2026 14:14:46,585 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:14:47,631 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+16 Mar 2026 14:14:47,670 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+16 Mar 2026 14:14:47,731 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+16 Mar 2026 14:14:47,733 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+16 Mar 2026 14:14:47,734 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+16 Mar 2026 14:14:47,928 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+16 Mar 2026 14:14:47,929 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+16 Mar 2026 14:15:06,806 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+16 Mar 2026 14:15:06,807 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+16 Mar 2026 14:15:41,665 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:15:41,977 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+16 Mar 2026 14:15:41,977 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+16 Mar 2026 14:15:41,977 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+16 Mar 2026 14:15:41,979 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+16 Mar 2026 14:15:42,004 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+16 Mar 2026 14:15:42,006 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+16 Mar 2026 14:15:42,006 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+16 Mar 2026 14:15:42,017 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+16 Mar 2026 14:15:42,019 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+16 Mar 2026 14:15:42,021 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+16 Mar 2026 14:15:42,026 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+16 Mar 2026 14:15:42,027 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+16 Mar 2026 14:15:42,072 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+16 Mar 2026 14:15:42,074 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+16 Mar 2026 14:15:42,076 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+16 Mar 2026 14:15:42,079 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+16 Mar 2026 14:15:42,081 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+16 Mar 2026 14:15:42,082 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+16 Mar 2026 14:15:42,084 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+16 Mar 2026 14:15:42,085 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+16 Mar 2026 14:15:42,089 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+16 Mar 2026 14:15:42,094 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+16 Mar 2026 14:15:42,095 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+16 Mar 2026 14:15:42,096 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+16 Mar 2026 14:15:42,103 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+16 Mar 2026 14:15:42,104 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+16 Mar 2026 14:15:42,105 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+16 Mar 2026 14:15:42,109 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+16 Mar 2026 14:15:42,114 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+16 Mar 2026 14:15:42,118 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+16 Mar 2026 14:15:42,120 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+16 Mar 2026 14:15:42,121 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+16 Mar 2026 14:15:42,121 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+16 Mar 2026 14:15:42,121 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+16 Mar 2026 14:15:42,122 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+16 Mar 2026 14:15:42,126 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+16 Mar 2026 14:15:42,128 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+16 Mar 2026 14:15:42,130 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+16 Mar 2026 14:15:42,130 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:15:43,241 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+16 Mar 2026 14:15:43,335 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+16 Mar 2026 14:15:43,426 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+16 Mar 2026 14:15:43,430 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+16 Mar 2026 14:15:43,430 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+16 Mar 2026 14:15:43,692 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+16 Mar 2026 14:15:43,693 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+16 Mar 2026 14:21:53,680 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+16 Mar 2026 14:26:31,817 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+16 Mar 2026 14:26:31,819 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+16 Mar 2026 14:26:37,515 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:26:37,864 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+16 Mar 2026 14:26:37,865 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+16 Mar 2026 14:26:37,865 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+16 Mar 2026 14:26:37,867 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+16 Mar 2026 14:26:37,903 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+16 Mar 2026 14:26:37,905 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+16 Mar 2026 14:26:37,906 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+16 Mar 2026 14:26:37,917 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+16 Mar 2026 14:26:37,919 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+16 Mar 2026 14:26:37,921 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+16 Mar 2026 14:26:37,926 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+16 Mar 2026 14:26:37,927 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+16 Mar 2026 14:26:37,971 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+16 Mar 2026 14:26:37,973 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+16 Mar 2026 14:26:37,974 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+16 Mar 2026 14:26:37,976 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+16 Mar 2026 14:26:37,977 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+16 Mar 2026 14:26:37,979 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+16 Mar 2026 14:26:37,981 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+16 Mar 2026 14:26:37,981 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+16 Mar 2026 14:26:37,983 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+16 Mar 2026 14:26:37,987 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+16 Mar 2026 14:26:37,987 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+16 Mar 2026 14:26:37,988 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+16 Mar 2026 14:26:37,995 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+16 Mar 2026 14:26:37,995 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+16 Mar 2026 14:26:37,996 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+16 Mar 2026 14:26:37,998 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+16 Mar 2026 14:26:38,001 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+16 Mar 2026 14:26:38,003 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+16 Mar 2026 14:26:38,005 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+16 Mar 2026 14:26:38,005 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+16 Mar 2026 14:26:38,006 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+16 Mar 2026 14:26:38,007 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+16 Mar 2026 14:26:38,007 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+16 Mar 2026 14:26:38,009 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+16 Mar 2026 14:26:38,010 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+16 Mar 2026 14:26:38,010 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+16 Mar 2026 14:26:38,010 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:26:39,011 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+16 Mar 2026 14:26:39,044 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+16 Mar 2026 14:26:39,109 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+16 Mar 2026 14:26:39,111 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+16 Mar 2026 14:26:39,112 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+16 Mar 2026 14:26:39,273 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+16 Mar 2026 14:26:39,274 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+16 Mar 2026 14:27:07,001 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+16 Mar 2026 14:27:07,002 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+16 Mar 2026 14:31:58,899 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:31:59,196 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+16 Mar 2026 14:31:59,196 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+16 Mar 2026 14:31:59,197 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+16 Mar 2026 14:31:59,199 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+16 Mar 2026 14:31:59,268 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+16 Mar 2026 14:31:59,270 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+16 Mar 2026 14:31:59,271 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+16 Mar 2026 14:31:59,280 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+16 Mar 2026 14:31:59,282 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+16 Mar 2026 14:31:59,284 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+16 Mar 2026 14:31:59,289 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+16 Mar 2026 14:31:59,289 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+16 Mar 2026 14:31:59,339 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+16 Mar 2026 14:31:59,354 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+16 Mar 2026 14:31:59,364 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+16 Mar 2026 14:31:59,367 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+16 Mar 2026 14:31:59,368 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+16 Mar 2026 14:31:59,371 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+16 Mar 2026 14:31:59,373 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+16 Mar 2026 14:31:59,373 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+16 Mar 2026 14:31:59,375 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+16 Mar 2026 14:31:59,379 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+16 Mar 2026 14:31:59,380 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+16 Mar 2026 14:31:59,381 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+16 Mar 2026 14:31:59,388 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+16 Mar 2026 14:31:59,389 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+16 Mar 2026 14:31:59,390 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+16 Mar 2026 14:31:59,392 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+16 Mar 2026 14:31:59,395 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+16 Mar 2026 14:31:59,396 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+16 Mar 2026 14:31:59,398 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+16 Mar 2026 14:31:59,398 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+16 Mar 2026 14:31:59,399 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+16 Mar 2026 14:31:59,399 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+16 Mar 2026 14:31:59,399 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+16 Mar 2026 14:31:59,401 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+16 Mar 2026 14:31:59,402 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+16 Mar 2026 14:31:59,402 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+16 Mar 2026 14:31:59,402 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:32:00,398 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+16 Mar 2026 14:32:00,422 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+16 Mar 2026 14:32:00,470 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+16 Mar 2026 14:32:00,473 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+16 Mar 2026 14:32:00,474 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+16 Mar 2026 14:32:00,646 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+16 Mar 2026 14:32:00,647 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+16 Mar 2026 14:33:30,020 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+16 Mar 2026 14:33:30,022 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+16 Mar 2026 14:38:38,696 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:38:39,014 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+16 Mar 2026 14:38:39,014 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+16 Mar 2026 14:38:39,014 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+16 Mar 2026 14:38:39,016 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+16 Mar 2026 14:38:39,048 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+16 Mar 2026 14:38:39,050 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+16 Mar 2026 14:38:39,051 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+16 Mar 2026 14:38:39,064 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+16 Mar 2026 14:38:39,067 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+16 Mar 2026 14:38:39,069 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+16 Mar 2026 14:38:39,075 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+16 Mar 2026 14:38:39,075 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+16 Mar 2026 14:38:39,236 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+16 Mar 2026 14:38:39,239 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+16 Mar 2026 14:38:39,240 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+16 Mar 2026 14:38:39,243 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+16 Mar 2026 14:38:39,244 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+16 Mar 2026 14:38:39,246 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+16 Mar 2026 14:38:39,249 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+16 Mar 2026 14:38:39,250 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+16 Mar 2026 14:38:39,252 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+16 Mar 2026 14:38:39,262 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+16 Mar 2026 14:38:39,262 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+16 Mar 2026 14:38:39,263 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+16 Mar 2026 14:38:39,273 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+16 Mar 2026 14:38:39,274 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+16 Mar 2026 14:38:39,275 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+16 Mar 2026 14:38:39,277 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+16 Mar 2026 14:38:39,281 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+16 Mar 2026 14:38:39,283 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+16 Mar 2026 14:38:39,284 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+16 Mar 2026 14:38:39,285 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+16 Mar 2026 14:38:39,285 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+16 Mar 2026 14:38:39,285 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+16 Mar 2026 14:38:39,286 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+16 Mar 2026 14:38:39,287 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+16 Mar 2026 14:38:39,288 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+16 Mar 2026 14:38:39,288 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+16 Mar 2026 14:38:39,288 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+16 Mar 2026 14:38:40,277 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+16 Mar 2026 14:38:40,308 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+16 Mar 2026 14:38:40,378 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+16 Mar 2026 14:38:40,380 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+16 Mar 2026 14:38:40,380 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+16 Mar 2026 14:38:40,556 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+16 Mar 2026 14:38:40,558 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+16 Mar 2026 15:27:54,588 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+16 Mar 2026 15:27:54,595 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
