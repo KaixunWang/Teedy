@@ -13,6 +13,12 @@ sh 'mvn compile'
 }
 stage('Test') {
 steps {
+sh '''
+if command -v brew >/dev/null 2>&1; then
+  brew list tesseract >/dev/null 2>&1 || brew install tesseract
+  brew list tesseract-lang >/dev/null 2>&1 || brew install tesseract-lang
+fi
+'''
 sh 'mvn test -Dmaven.test.failure.ignore=true'
 }
 }
