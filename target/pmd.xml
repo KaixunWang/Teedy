@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.7.0" timestamp="2026-04-27T15:27:16.387">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.7.0" timestamp="2026-05-18T01:24:08.088">
 <file name="/Users/kaixunwang/Downloads/Teedy/Teedy/docs-core/src/main/java/com/sismics/docs/core/dao/FileDao.java">
 <violation beginline="24" endline="257" begincolumn="22" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="com.sismics.docs.core.dao" class="FileDao" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#toomanymethods" priority="3">
 This class has too many methods, consider refactoring it.
@@ -126,7 +126,7 @@ The method 'getFileExtension(String)' has a cyclomatic complexity of 12.
 </violation>
 </file>
 <file name="/Users/kaixunwang/Downloads/Teedy/Teedy/docs-core/src/main/java/com/sismics/util/totp/GoogleAuthenticator.java">
-<violation beginline="76" endline="443" begincolumn="40" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="com.sismics.util.totp" class="GoogleAuthenticator" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+<violation beginline="74" endline="441" begincolumn="40" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="com.sismics.util.totp" class="GoogleAuthenticator" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#toomanymethods" priority="3">
 This class has too many methods, consider refactoring it.
 </violation>
 </file>

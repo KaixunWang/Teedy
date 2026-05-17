@@ -66,6 +66,7 @@
     <maven-pmd-plugin.version>3.26.0</maven-pmd-plugin.version>
     <jacoco-maven-plugin.version>0.8.13</jacoco-maven-plugin.version>
     <org.apache.maven.plugins.maven-javadoc-plugin.version>3.6.3</org.apache.maven.plugins.maven-javadoc-plugin.version>
+    <org.apache.maven.plugins.maven-site-plugin.version>4.0.0-M16</org.apache.maven.plugins.maven-site-plugin.version>
   </properties>
 
   <scm>
@@ -128,7 +129,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
-        <version>4.0.0-M16</version>
+        <version>${org.apache.maven.plugins.maven-site-plugin.version}</version>
       </plugin>
 
       <plugin>
