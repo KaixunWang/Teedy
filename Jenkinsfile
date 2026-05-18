@@ -59,6 +59,8 @@ fi
         stage('Building image') {
             steps {
                 script {
+                    // ubuntu:22.04 may fail on some registry mirrors; jammy is the same release
+                    sh 'docker pull ubuntu:jammy'
                     docker.build("${env.DOCKER_IMAGE}:${env.DOCKER_TAG}")
                 }
             }
