@@ -63,11 +63,13 @@ fi
         }
         stage('Upload image') {
             steps {
-                script {
-                    docker.withRegistry('https://registry.hub.docker.com', env.DOCKER_HUB_CREDENTIALS) {
-                        docker.image("${env.DOCKER_IMAGE}:${env.DOCKER_TAG}").push()
-                        docker.image("${env.DOCKER_IMAGE}:${env.DOCKER_TAG}").push('latest')
-                    }
+                withCredentials([usernamePassword(credentialsId: "${DOCKER_HUB_CREDENTIALS}", usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                    sh """
+                        echo "\$DOCKER_PASS" | docker login -u "\$DOCKER_USER" --password-stdin
+                        docker push ${DOCKER_IMAGE}:${DOCKER_TAG}
+                        docker tag ${DOCKER_IMAGE}:${DOCKER_TAG} ${DOCKER_IMAGE}:latest
+                        docker push ${DOCKER_IMAGE}:latest
+                    """
                 }
             }
         }
@@ -77,9 +79,7 @@ fi
                     ['8082', '8083', '8084'].each { port ->
                         sh "docker stop teedy-container-${port} || true"
                         sh "docker rm teedy-container-${port} || true"
-                        docker.image("${env.DOCKER_IMAGE}:${env.DOCKER_TAG}").run(
-                            "-d --name teedy-container-${port} -p ${port}:8080"
-                        )
+                        sh "docker run -d --name teedy-container-${port} -p ${port}:8080 ${env.DOCKER_IMAGE}:${env.DOCKER_TAG}"
                     }
                     sh 'docker ps --filter "name=teedy-container"'
                 }
