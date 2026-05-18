@@ -58,10 +58,7 @@ fi
         }
         stage('Building image') {
             steps {
-                script {
-                    // Use local base image cache; --pull=false avoids broken registry-mirror metadata errors
-                    docker.build("${env.DOCKER_IMAGE}:${env.DOCKER_TAG}", '--pull=false')
-                }
+                sh "docker build -t ${env.DOCKER_IMAGE}:${env.DOCKER_TAG} --pull=false ."
             }
         }
         stage('Upload image') {
